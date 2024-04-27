@@ -1,0 +1,1 @@
+# typo_squat_domain_generator
