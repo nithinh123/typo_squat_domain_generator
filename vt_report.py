@@ -98,7 +98,8 @@ class VTReport:
         """
         self.update_api_key()
         return self.get_domain_report()
- 
+
+"""  
 if __name__ == '__main__':
     for item in new_output:
         #Base64 encoded VirusTotal API Key
@@ -107,3 +108,4 @@ if __name__ == '__main__':
         if status:
             item.update(data['last_analysis_stats'])
     print(new_output)
+"""
