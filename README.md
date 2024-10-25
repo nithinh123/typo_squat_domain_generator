@@ -19,7 +19,7 @@ The project contains the following files:
 1. Clone this repository:
     ```bash
     git clone https://github.com/nithinh123/typo_squat_domain_generator.git
-    cd typesquat-domain-generation
+    cd typesquat_domain_generator
     ```
 
 2. Install the required dependencies:
