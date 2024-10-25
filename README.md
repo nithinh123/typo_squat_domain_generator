@@ -28,30 +28,3 @@ The project contains the following files:
     ```
 
 3. Configure API keys (if required, for example, for VirusTotal) in the respective files, or set them as environment variables.
-
-## Usage
-
-1. **Generate Domains**: Use `generate_domains.py` to generate a list of typesquatted domains for a target domain.
-    ```bash
-    python generate_domains.py --target <target_domain>
-    ```
-
-2. **Categorize Domains**: Categorize generated domains using `domain_categorise.py`.
-    ```bash
-    python domain_categorise.py --input <generated_domains_file>
-    ```
-
-3. **Analyze Domains**: Get detailed information about each domain using `get_domain_details.py`.
-    ```bash
-    python get_domain_details.py --input <generated_domains_file>
-    ```
-
-4. **Check Levenshtein Distance**: Measure similarity between domains using `levenshtein_distance.py`.
-    ```bash
-    python levenshtein_distance.py --input <generated_domains_file>
-    ```
-
-5. **Fetch VirusTotal Reports**: Run `vt_report.py` to obtain reputation data from VirusTotal.
-    ```bash
-    python vt_report.py --input <generated_domains_file>
-    ```
