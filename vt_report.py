@@ -98,14 +98,12 @@ class VTReport:
         """
         self.update_api_key()
         return self.get_domain_report()
-
-"""  
+ 
 if __name__ == '__main__':
     for item in new_output:
         #Base64 encoded VirusTotal API Key
-        encoded_api_key = "ZjkzNzIxOGJjOTE0YmIxMGE4YWM1ZDkzMTRkMGZjNjIxZWRkYjVmNDZlMmQ5NGUwOGE1ZTQzMGNjNzJjNDg4YQ=="
+        encoded_api_key = "ChangeMe"
         status, data = VTReport(item['ip'], encoded_api_key).main()
         if status:
             item.update(data['last_analysis_stats'])
     print(new_output)
-"""
